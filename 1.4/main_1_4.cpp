@@ -32,6 +32,4 @@ int main() {
     int iter2;
     double root2 = tangent(f2, x0_2, epsilon, iter2);
     printResults(root2, f2(root2), iter2);
-
-    return 0;
 }
